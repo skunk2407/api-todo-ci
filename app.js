@@ -16,7 +16,7 @@ let nextId = 3;
 // GET /
 app.get('/', (req, res) => {
   res.json({
-    message: 'API TODO - Déploiement automatique OK',
+    message: 'API TODO - Auto deploy OK 🎉',
     endpoints: {
       'GET /todos': 'Liste des todos',
       'GET /todos/:id': 'Un todo spécifique',
